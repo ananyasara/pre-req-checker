@@ -34,7 +34,7 @@ public class Eligible {
             return;
         }
 
-	// WRITE YOUR CODE HERE
+
     ArrayList<ArrayList<String>> AdjList = new ArrayList<ArrayList<String>>();
     StdIn.setFile(args[0]);
     String [] name = StdIn.readAllStrings();
