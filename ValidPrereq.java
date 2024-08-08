@@ -30,7 +30,7 @@ public class ValidPrereq {
             StdOut.println("Execute: java -cp bin prereqchecker.ValidPrereq <adjacency list INput file> <valid prereq INput file> <valid prereq OUTput file>");
             return;
         }
-	// WRITE YOUR CODE HERE
+
     ArrayList<ArrayList<String>> adjList = new ArrayList<ArrayList<String>>();
 
     StdIn.setFile(args[0]);
